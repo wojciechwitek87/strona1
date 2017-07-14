@@ -1,36 +1,40 @@
-head {
-    background-color: azure;
+
+
+h1 { 
+    color:rgb(
+68,68,70);
+    text-shadow:2px 3px 0 rgb(183,89,81); 
+text-align:center;
 }
-
-
  
-h1 { text-shadow:2px 3px 0 red
-; 
-text-align:center;}
 
 body {
-background-image: linear-gradient(pink, blue);}
+background-image: linear-gradient(#87CEEB, #708090);}
 
  .container {
      width: 1080px;
-     height:1920px;
-     background-color: green;
-  }
+     height:1100px;
+     margin:0 auto;
+}
 
 aside  {
     float:left;
-     width: 230px;
+    width: 230px;
     height: 650px;
     background-color: #d7d7d7;
     padding: 5px;
-   }
+}
+
 .pix1 {
     float:left;
-
+    padding:5px;
 }    
+
 .pix2{
     float:right;
+    padding:5px;
 }
+
  .upper {
     float: left;
     width: 780px;
@@ -38,13 +42,15 @@ aside  {
     height: 250px;
     padding:5px;
  }
+
  .lower {
     float: left;
     width: 780px;
     background-color: #fab949;
-    height: 400px;
-padding:5px;
+    height: 390px;
+    padding:5px;
 }
 
 
-}
+
+
