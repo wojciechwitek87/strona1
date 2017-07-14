@@ -2,68 +2,49 @@ head {
     background-color: azure;
 }
 
-h1 {
-  background-color: rgba(8, 35, 82);
-  font-family: 'Covered By Your Grace', sans-serif;
-  font-size: 100px;
-  line-height: 76px;
-  margin: 0;
-  position: relative;
-  text-align: center;
-  top: 20%;
-    background-image:url( <img src="paleta.jpg">); 
-}
+
+ 
+h1 { text-shadow:2px 3px 0 red
+; 
+text-align:center;}
 
 body {
 background-image: linear-gradient(pink, blue);}
 
  .container {
      width: 1080px;
+     height:1920px;
      background-color: green;
   }
 
-aside { 
-   width: 220px;
-  /*  width:20%; */
-    height: 450px;
-    background:#1D4C92;
-    font-size: 20px;
-    text-align:center;
-    padding:0;
-   
-}
-.side_menu {
-    
-    width:200px; /*
-    width:5%;*/
-    height:55px;
-padding-bottom: 0;
-    padding-top: 50px;
-    color:black;
-    text-align: center;
+aside  {
+    float:left;
+     width: 230px;
+    height: 650px;
+    background-color: #d7d7d7;
+    padding: 5px;
+   }
+.pix1 {
+    float:left;
 
-    
+}    
+.pix2{
+    float:right;
 }
-.left_boxes {
-/* width: 300px; */
-    width:800px;
-  height: 150px;
-    position:relative;
-    left:255px;
-    bottom:520px;
-    
-  background: red;
-
+ .upper {
+    float: left;
+    width: 780px;
+    background-color: #499afa;
+    height: 250px;
+    padding:5px;
+ }
+ .lower {
+    float: left;
+    width: 780px;
+    background-color: #fab949;
+    height: 400px;
+padding:5px;
 }
 
-.right_box {
-  width: 40%;
-  height: 200px;
-  padding: 30px;
-  background-color: lightsalmon;
-  margin: 30px; 
-    left:275px;
-    bottom: 400px;
-    
 
 }
