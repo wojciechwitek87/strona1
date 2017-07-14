@@ -1,15 +1,9 @@
-
-/* Header styles */
-
-.header {
-  background:green;
-    
-  height: 400px;
-  background-position: center center;
+head {
+    background-color: azure;
 }
 
 h1 {
-  color: #41292C;
+  background-color: rgba(8, 35, 82);
   font-family: 'Covered By Your Grace', sans-serif;
   font-size: 100px;
   line-height: 76px;
@@ -17,49 +11,59 @@ h1 {
   position: relative;
   text-align: center;
   top: 20%;
-    background-image:url( <img src="paleta.jpg">);
+    background-image:url( <img src="paleta.jpg">); 
 }
 
 body {
-  
-}
-#caly_blok {
-  font-size:24px;
-    background:red;
-    
-    
-        
-}
-#naglowek {
-  background:#4D7AAE; 
+background-image: linear-gradient(pink, blue);}
+
+ .container {
+     width: 1080px;
+     background-color: green;
+  }
+
+aside { 
+   width: 220px;
+  /*  width:20%; */
+    height: 450px;
+    background:#1D4C92;
+    font-size: 20px;
     text-align:center;
-      
+    padding:0;
+   
+}
+.side_menu {
+    
+    width:200px; /*
+    width:5%;*/
+    height:55px;
+padding-bottom: 0;
+    padding-top: 50px;
+    color:black;
+    text-align: center;
+
+    
+}
+.left_boxes {
+/* width: 300px; */
+    width:800px;
+  height: 150px;
+    position:relative;
+    left:255px;
+    bottom:520px;
+    
+  background: red;
+
 }
 
-#lewy {
-  float:left;
-  background-color:#DDD;
-  min-height:150px;
+.right_box {
+  width: 40%;
+  height: 200px;
+  padding: 30px;
+  background-color: lightsalmon;
+  margin: 30px; 
+    left:275px;
+    bottom: 400px;
+    
 
-
-}
-
-#prawy {
-  float:left;
- /* background-color:#EEE;*/
-  min-height:150px;
-  width:70%;
-
-}
-
-#stopka {
-  clear:both;
-  background-color:gold;
-  text-align:center;
-
-}
-
-p {
-  margin:0;
-  padding:15px;
 }
