@@ -1,1 +1,65 @@
-css
+
+/* Header styles */
+
+.header {
+  background:green;
+    
+  height: 400px;
+  background-position: center center;
+}
+
+h1 {
+  color: #41292C;
+  font-family: 'Covered By Your Grace', sans-serif;
+  font-size: 100px;
+  line-height: 76px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 20%;
+    background-image:url( <img src="paleta.jpg">);
+}
+
+body {
+  
+}
+#caly_blok {
+  font-size:24px;
+    background:red;
+    
+    
+        
+}
+#naglowek {
+  background:#4D7AAE; 
+    text-align:center;
+      
+}
+
+#lewy {
+  float:left;
+  background-color:#DDD;
+  min-height:150px;
+
+
+}
+
+#prawy {
+  float:left;
+ /* background-color:#EEE;*/
+  min-height:150px;
+  width:70%;
+
+}
+
+#stopka {
+  clear:both;
+  background-color:gold;
+  text-align:center;
+
+}
+
+p {
+  margin:0;
+  padding:15px;
+}
